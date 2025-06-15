@@ -1,6 +1,4 @@
-Here’s an updated version of your README tailored to the file structure in your project directory:
 
----
 
 # 🍄 Mushroom Classification Web App
 
@@ -21,19 +19,18 @@ A **Streamlit** application that predicts whether a mushroom is **edible** or **
 
 ```text
 MUSHROOM_CLASSIFICATION/
-├── data/                          # Directory for future data storage
+├── data/
+    ├── mushroom.csv               # Dataset
 ├── pages/                         # Additional Streamlit pages
 │   ├── Classifier.py              # Main mushroom classifier UI
 │   ├── guide.py                   # User guide/help section
 │   └── Welcome.py                 # Welcome/Landing page
-├── tests/                         # Directory for tests (to be implemented)
+├── tests/                         # Directory for tests (to check edible / poisonous)
 ├── feature_names.pkl              # Saved feature names for display/input
-├── LICENSE                        # License file (MIT or other)
 ├── model.ipynb                    # Jupyter notebook for data prep & model training
 ├── mushroom_model.pkl             # Trained Logistic Regression model
 ├── ordinal_encoder.pkl            # Encoder for input features
 ├── target_encoder.pkl             # Encoder for output labels
-├── README.md                      # Project documentation
 ├── requirements.txt               # List of dependencies
 └── streamlit_app.py               # Entry point for the Streamlit app
 ```
