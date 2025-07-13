@@ -1,17 +1,15 @@
-
-
 # 🍄 Mushroom Classification Web App
 
-A **Streamlit** application that predicts whether a mushroom is **edible** or **poisonous** using **Logistic Regression** trained on the UCI Mushroom Dataset.
+A **Streamlit** application that predicts whether a mushroom is **edible** or **poisonous** using **Logistic Regression**, trained on the UCI Mushroom Dataset.
 
 ---
 
 ## ⚙️ Technologies Used
 
-* **Streamlit** – for building an interactive frontend UI
-* **scikit-learn** – for encoding, preprocessing, and logistic regression modeling
-* **joblib** – for saving and loading the model and encoders
-* **pandas**, **numpy** – for data manipulation and numerical operations
+- **Streamlit** – for building an interactive frontend UI  
+- **scikit-learn** – for encoding, preprocessing, and logistic regression modeling  
+- **joblib** – for saving and loading the model and encoders  
+- **pandas**, **numpy** – for data manipulation and numerical operations  
 
 ---
 
@@ -20,20 +18,29 @@ A **Streamlit** application that predicts whether a mushroom is **edible** or **
 ```text
 MUSHROOM_CLASSIFICATION/
 ├── data/
-    ├── mushroom.csv               # Dataset
-├── pages/                         # Additional Streamlit pages
+│   ├── labels.csv                 # Encoded Y values (target labels)
+│   ├── mushrooms.csv              # Raw mushroom dataset
+│   └── parameters.csv             # Processed X values (features)
+├── models/
+│   ├── feature_names.pkl          # Saved feature names for display/input
+│   ├── mushroom_model.pkl         # Trained Logistic Regression model
+│   ├── ordinal_encoder.pkl        # Encoder for input features
+│   └── target_encoder.pkl         # Encoder for output labels
+├── pages/
 │   ├── Classifier.py              # Main mushroom classifier UI
 │   ├── guide.py                   # User guide/help section
 │   └── Welcome.py                 # Welcome/Landing page
-├── tests/                         # Directory for tests (to check edible / poisonous)
-├── feature_names.pkl              # Saved feature names for display/input
+├── tests/
+│   ├── edible.txt                 # Sample edible output
+│   └── poisonous.txt              # Sample poisonous output
+├── data.ipynb                     # Notebook for exploring dataset
 ├── model.ipynb                    # Jupyter notebook for data prep & model training
-├── mushroom_model.pkl             # Trained Logistic Regression model
-├── ordinal_encoder.pkl            # Encoder for input features
-├── target_encoder.pkl             # Encoder for output labels
+├── streamlit_app.py               # Entry point for the Streamlit app
 ├── requirements.txt               # List of dependencies
-└── streamlit_app.py               # Entry point for the Streamlit app
-```
+├── README.md                      # Project documentation
+├── LICENSE                        # Project license
+└── todo.txt                       # Development tasks and notes
+
 
 ---
 

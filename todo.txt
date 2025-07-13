@@ -5,5 +5,5 @@ Seperate the pipeline to
     built a pipeline to fix NaNs and Split X and Y and put them into separate Files
     eda has to be done on the dataset
 
--model train and evaluation
--frontend app
+-model train [done] and evaluation[left]
+-frontend app[fixed]
