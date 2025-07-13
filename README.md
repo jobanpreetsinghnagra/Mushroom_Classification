@@ -40,7 +40,7 @@ MUSHROOM_CLASSIFICATION/
 ├── README.md                      # Project documentation
 ├── LICENSE                        # Project license
 └── todo.txt                       # Development tasks and notes
-
+```
 
 ---
 
@@ -51,7 +51,7 @@ MUSHROOM_CLASSIFICATION/
 
    * Handle missing values (e.g., '?')
    * Encode categorical features using `OrdinalEncoder`
-3. **Train/Test Split**: 90% for training, 10% for testing
+3. **Train/Test Split**: 80% for training, 20% for testing
 4. **Model**: `LogisticRegression()` from scikit-learn
 5. **Saving Artifacts**:
 
@@ -78,7 +78,7 @@ MUSHROOM_CLASSIFICATION/
    ```
 
 3. **Run the model training notebook**
-   Open and execute all cells in `model.ipynb` to:
+   Open and execute all cells in `data.ipynb`  `model.ipynb` to:
 
    * Prepare the dataset
    * Train the model
