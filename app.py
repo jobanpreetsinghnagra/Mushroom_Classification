@@ -9,7 +9,7 @@ welcome_page = st.Page(
     default=True,
 )
 project_1_page = st.Page(
-    "pages/Guide.py",
+    "pages/guide.py",
     title="Guide",
     icon=":material/article:",
 )
