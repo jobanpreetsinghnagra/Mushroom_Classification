@@ -2,5 +2,8 @@ Update to do on the Project
 
 Seperate the pipeline to
 -data manipulation
+    built a pipeline to fix NaNs and Split X and Y and put them into separate Files
+    eda has to be done on the dataset
+
 -model train and evaluation
 -frontend app
