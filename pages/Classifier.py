@@ -51,10 +51,10 @@ def load_or_create_model():
     
     # Try to load pre-trained model first
     try:
-        model = joblib.load('mushroom_model.pkl')
-        ordinal_encoder = joblib.load('ordinal_encoder.pkl')
-        target_encoder = joblib.load('target_encoder.pkl')
-        feature_names = joblib.load('feature_names.pkl')
+        model = joblib.load('models/mushroom_model.pkl')
+        ordinal_encoder = joblib.load('models/ordinal_encoder.pkl')
+        target_encoder = joblib.load('models/target_encoder.pkl')
+        feature_names = joblib.load('models/feature_names.pkl')
         
         st.success("✅ Loaded pre-trained model and encoders")
         return model, ordinal_encoder, target_encoder, feature_names
