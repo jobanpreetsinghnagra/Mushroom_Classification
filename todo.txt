@@ -1,0 +1,6 @@
+Update to do on the Project
+
+Seperate the pipeline to
+-data manipulation
+-model train and evaluation
+-frontend app

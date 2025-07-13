@@ -2,6 +2,7 @@ numpy
 pandas
 seaborn
 matplotlib
+notebook
 joblib
 streamlit
 sklearn
