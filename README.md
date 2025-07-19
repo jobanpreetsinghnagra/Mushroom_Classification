@@ -87,7 +87,7 @@ MUSHROOM_CLASSIFICATION/
 4. **Launch the Streamlit app**
 
    ```bash
-   streamlit run streamlit_app.py
+   streamlit run app.py
    ```
 
    The web app will open in your default browser, typically at `http://localhost:8501`.
